@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#fffff');
+  const [navBg, setNavBg] = useState('##ffffff');
   const [linkColor, setLinkColor] = useState('#189934');
   const router = useRouter();
 
@@ -17,11 +17,11 @@ const Navbar = () => {
       router.asPath === '/mtportfolio' ||
       router.asPath === '/myportfolio' 
     ) {
-      setNavBg('#fffff');
-      setLinkColor('#fffff');
+      setNavBg('transparent');
+      setLinkColor('#000000');
     } else {
-      setNavBg('#fffff');
-      setLinkColor('#4fdc4c');
+      setNavBg('#ffffff');
+      setLinkColor('#189934');
     }
   }, [router]);
 
@@ -59,7 +59,7 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
+          <ul style={{ color: `${linkColor}` }} className='hidden md:flex font-bold'>
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
             </Link>

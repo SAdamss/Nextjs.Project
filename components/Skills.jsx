@@ -30,7 +30,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <img
-                  src='https://mpng.subpng.com/20180420/qcq/kisspng-web-development-responsive-web-design-cascading-st-css-5ada20d85ee519.3835589315242446963887.jpghttps://mpng.subpng.com/20180420/qcq/kisspng-web-development-responsive-web-design-cascading-st-css-5ada20d85ee519.3835589315242446963887.jpg'
+                  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspxt15YxcewL6QS30ASItdA5HVMEjZ8Oiw&usqp=CAU'
                   width='64px'
                   height='64px'
                   alt='/'
@@ -60,7 +60,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <img
-                  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbE9yoNlWlt6xV0hYspujUe2jsdumN7J3ondOHiN1N6aBzmz4YyosQK0kOEXMyE8JfzOY&usqp=CAU'
+                  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOxiFZo8hp7oqoftdM8UCkftr2ZDLY0C25LA&usqp=CAU'
                   width='64px'
                   height='64px'
                   alt='/'

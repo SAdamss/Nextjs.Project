@@ -29,7 +29,7 @@ const Contact = () => {
                 <p>Front-End Developer</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
-                  me for more info.
+                  me for more information.
                 </p>
               </div>
               <div>
@@ -96,17 +96,19 @@ const Contact = () => {
                   <label className='uppercase text-sm py-2'>Message</label>
                   <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
                 </div>
+                <Link href='mailto:shannonadams083@gmail.com'>
                 <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
+                </Link>
               </form>
             </div>
           </div>
         </div>
         <div className='flex justify-center py-12'>
-            <Link href='mailto:shannonadams083@gmail.com'>
+          
             <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <HiOutlineChevronDoubleUp className='text-[#189934]' size={30} />
                 </div>
-            </Link>
+            
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
   useEffect(() => {
     if (
       router.asPath === '/mtportfolio' ||
-      router.asPath === '/myportfolio' 
+      router.asPath === '/travelapp' 
     ) {
       setNavBg('transparent');
       setLinkColor('#000000');

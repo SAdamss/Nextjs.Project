@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import MTImg from '../public/assets/projects/projec 1.jpeg';
 import ProjectItem from './ProjectItem';
-
+import TravelImg from '../public/assets/projects/Web capture_30-5-2022_201820_localhost.jpeg'
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
@@ -19,6 +19,11 @@ const Projects = () => {
             backgroundImg={MTImg}
             projectUrl='/property'
           />
+          <ProjectItem
+          title='Travel App'
+          backgroundImg={TravelImg}
+          projectUrl='/property'
+        />
       
       
     

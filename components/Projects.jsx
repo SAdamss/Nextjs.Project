@@ -17,12 +17,12 @@ const Projects = () => {
           <ProjectItem
             title='Performer Portfolio'
             backgroundImg={MTImg}
-            projectUrl='/property'
+            projectUrl='https://sophiedouglasperformer.com/'
           />
           <ProjectItem
           title='Travel App'
           backgroundImg={TravelImg}
-          projectUrl='/property'
+          projectUrl='https://github.com/SAdamss/travel-app-react'
         />
       
       
